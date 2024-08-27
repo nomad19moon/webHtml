@@ -22,6 +22,13 @@
     background-color: rgb(32, 35, 51);
   }
 
+  .box2 a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: hsl(27, 21%, 92%);
+    font-weight: bold;
+  }
+
   .navbar {
     height: 70px;
     width: 1300px;
@@ -62,4 +69,23 @@
     display: block;
     visibility: visible;
  }
+
+ .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+ .top-left {
+    position: absolute;
+    top: 64px;
+    left: 100px;
+    background-color: rgb(48, 51, 32);
+  }
+  .form-popup {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
   
